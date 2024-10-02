@@ -1,0 +1,24 @@
+.footer{
+    background-color: rgb(126, 121, 121);
+}
+.footer-container{
+    margin: 0px 90px;
+}
+.footer-icon-container{
+   display: flex;
+   justify-content: center;   
+   cursor: pointer; 
+}
+.footer-icon{
+    height: 30px;  
+    margin: 10px; 
+}
+.footer-contact{
+    display: flex;
+    justify-content: center;  
+}
+.rights{
+    display: flex;
+    justify-content: center;    
+}
+

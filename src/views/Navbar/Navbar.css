@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    background-color: rgb(249, 249, 249);
+    box-shadow: 5px 10px aliceblue;
+    position: sticky;
+    top: 0%;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 0px 60px; 
+}
+.nav-img{
+     height: 40px;
+     width: 40px;
+     padding: 2.5px;
+     margin: 40px 10px;
+     border-radius: 50px;
+     background-color: rgba(0, 0, 0, 0.176);
+}
+.nav-left{
+    display: flex;
+}
+.nav-left h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.size {
+    font-size: 20px;
+    margin-top: 0%;  
+    font-weight: 600;
+}
+
+.nav-right{
+    display: flex;
+}
+.nav-right p {
+    margin: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}

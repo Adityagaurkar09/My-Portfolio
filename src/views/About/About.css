@@ -1,0 +1,15 @@
+.about{
+    margin: 0px 90px;
+}
+.size {
+    font-size: 20px;
+    margin-top: 0%;  
+    font-weight: 600;
+}
+.color{
+    color: rgb(10, 126, 14);
+}
+.personal{
+    font-size: 19px;
+    text-align: justify;
+}

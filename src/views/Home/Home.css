@@ -1,0 +1,25 @@
+.Home{
+  display: flex;
+  margin: 90px;
+}
+
+.size1{
+  margin-left: 30px;
+}
+.logo{
+  height: 30px;
+  margin-left: 20px;
+  display: flex;
+ justify-content: space-around;
+ cursor: pointer;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.codeimg{
+  height: 350px;
+  margin: 50px 200px;
+}
