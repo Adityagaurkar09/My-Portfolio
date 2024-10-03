@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import developerimg from './developer.png'
+import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div className='body'>
@@ -12,10 +13,10 @@ function Navbar() {
             </div>
             
         <div className='nav-right'>
-                <p>Home</p>
-                <p>About</p>
-                <p>Contact</p>
-                <p>Portfolio</p>
+                <p><Link to='/'>Home </Link></p>
+                <p><Link to='/About'>About </Link></p>
+                <p><Link to='/Portfolio'>Portfolio </Link></p>
+                <p><Link to='/Contact'>Contact </Link></p>
         </div>
         
     </div>

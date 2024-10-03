@@ -18,8 +18,9 @@ function Home() {
   return (
     <div>
       <Navbar/>
-    <div className='Home'> 
+    <div name='Home' className='Home'> 
     <div>
+      
 <p className='size'> Welcome In My Feed</p>
 <h1>Hello, I'm a Programmer|</h1>
 <p className='personal'>Aspiring web developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React . 
