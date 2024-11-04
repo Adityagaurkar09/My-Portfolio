@@ -5,6 +5,7 @@ import Linkedin from './linkedin.png'
 import Telegram from './telegram.png'
 import Whatsapp from './whatsapp.png'
 
+
 function Footer() {
   return (
     <div className='footer'>

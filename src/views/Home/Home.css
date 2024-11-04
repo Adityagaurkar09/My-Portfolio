@@ -1,6 +1,5 @@
 .Home{
   display: flex;
-  margin: 90px;
 }
 
 .size1{
@@ -22,4 +21,29 @@
 .codeimg{
   height: 350px;
   margin: 50px 200px;
+}
+.maiin{
+  margin: 90px;
+}
+
+@media screen and (max-width: 500px) {
+  .maiin{
+margin: 0px;
+  }
+  .codeimg{
+    height: 250px;
+    margin: 10px 40px;
+   
+  }
+  .Home{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .maiin{
+margin: 20px;
+  }
+ 
 }

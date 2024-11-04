@@ -1,6 +1,4 @@
-.Contact{
-    margin: 90px;
-}
+
 .form{
     height: 490px;
     width: 300px;
@@ -43,4 +41,12 @@
     width: auto;
     border-radius: 5px;
     cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .form{
+        width: auto;
+    }
+    .form-input{
+        width: auto;
+    }
 }

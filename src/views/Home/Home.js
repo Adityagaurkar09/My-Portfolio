@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css';
 import About from '../About/About'
 import Navbar from '../Navbar/Navbar'
-import Portfolio from '../Portfolio/Portfolio';
+import Portfolio from '../Portfolio/Portfolio'
 import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
 import Coder from './coding.png'
@@ -16,8 +16,11 @@ import pythone from './python.png'
 
 function Home() {
   return (
-    <div>
+    <div className='full'>
+      <div>
       <Navbar/>
+      </div>
+      <div className='maiin'>
     <div name='Home' className='Home'> 
     <div>
       
@@ -60,8 +63,10 @@ function Home() {
 <About/>
 <Portfolio/>
 <Contact/>
+</div>
 <Footer/>
 </div>
+
   );
 }
 

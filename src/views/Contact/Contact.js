@@ -5,6 +5,7 @@ import toast,{ Toaster } from 'react-hot-toast';
 function Contact() {
   return (
     <div className='Contact'>
+      
         <h1>Contact</h1>
        
         <div className='form'>
@@ -24,14 +25,14 @@ function Contact() {
               <div>
                 <button className='btn' onClick={()=>{
                    toast.success("successfully",{
-                    duration:8000
+                    duration:5000,
                    })
                   
                 }}>Submit</button></div>
                 </div>
                 </form>
         </div>
-        <Toaster position='top-center'/>
+        <Toaster/>
     </div>
   )
 }
