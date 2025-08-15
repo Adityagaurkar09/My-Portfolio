@@ -6,19 +6,26 @@ function About() {
   const aboutcontaint= [
     {
       id:0,
-      heading2:"About",
-      description:"Hello, I'm Aditya, a passionate Web developer with a keen eye for MERN Stack. With a background in IT, I strive to create impactful and visually stunning Software solutions that leave a lasting impression. ",
+      heading2:"About me",
+      description:"I am a passionate and dedicated Full Stack Developer with a strong foundation in HTML, CSS, JavaScript, React.js, Express.js, and MongoDB. I enjoy building responsive, user-friendly web applications and learning new technologies to improve my skills. I have hands-on project experience in developing a Todo App and an E-commerce Website, and I am eager to apply my knowledge in a real-world environment through an internship opportunity.",
     },
     {
-      id:1,
-      heading:"Education",
-      description:"[Bachelor of Computer application] :- [Rashtra Sant Tukdoji Maharaj Nagpur University], [2020-2023] ",
+id: 1,
+heading: "Education",
+description: (
+  <>
+    [Secondary School Certificate] :- [Holy Cross English Medium High School, Butibori], [2017-2018] <br />
+    [Higher Secondary Certificate] :- [Jijamata Junior College, Butibori], [2018-2020] <br />
+    [Bachelor of Computer Application] :- [Rashtra Sant Tukdoji Maharaj Nagpur University], [2020-2023]
+  </>
+)
+
     },
-    {
-      id:2,
-      heading:"Education",
-      description:"[Programming Languages] :-  [HTML , CSS , JavaScript , REACTJS , C++ , GIT and GITHUB]  ",
-    },
+    // {
+    //   id:2,
+    //   heading:"Education",
+    //   description:"[Programming Languages] :-  [HTML , CSS , JavaScript , REACTJS , C++ , GIT and GITHUB]  ",
+    // },
     {
       id:3,
       heading:"Mission Statement",
@@ -36,6 +43,7 @@ function About() {
              <p  className='personal'>{description} </p>
              </div>
             ))}
+            
     </div>
   )
 }

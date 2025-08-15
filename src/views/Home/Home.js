@@ -9,10 +9,11 @@ import Coder from './coding.png'
 import facebook from './facebook.png'
 import linkedin from './linkedin.png'
 import github from './github.png'
-import javascript from './js.png'
-import mongodb from './mongodb.png'
-import science from './science.png'
-import pythone from './python.png'
+// import javascript from './js.png'
+// import mongodb from './mongodb.png'
+// import science from './science.png'
+// import pythone from './python.png'
+import Skill from '../Skill/Skill'
 
 function Home() {
   return (
@@ -42,7 +43,7 @@ function Home() {
 <img src={facebook} alt='facebook'/>
 </div>
 </div>
-<div>
+{/* <div>
 <p className='size size1' >Currently working on</p>
 
 <div className='logo'> 
@@ -51,7 +52,7 @@ function Home() {
 <img src={science} alt='science'/>
 <img src={pythone} alt='pythone'/>
 </div>
-</div>
+</div> */}
 </div>
 </div>
 </div>
@@ -62,6 +63,7 @@ function Home() {
 </div>
 <About/>
 <Portfolio/>
+<Skill/>
 <Contact/>
 </div>
 <Footer/>

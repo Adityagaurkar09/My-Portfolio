@@ -21,7 +21,7 @@ function Footer() {
         <p footer>Contact Us :- <span>8010825030</span></p>
       </div>
       <div className='rights'>
-        <h3>@ 2024 All rights reserved.</h3>
+        <h3>@ 2025 All rights reserved.</h3>
       </div>
       </div>
     </div>
