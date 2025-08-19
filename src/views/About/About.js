@@ -14,6 +14,24 @@ id: 1,
 heading: "Education",
 description: (
   <>
+  {/* <div className='education card'>
+  <div className='education'>
+    <h1>Secondary School Certificate</h1>
+    <h2>Holy Cross English Medium High School, Butibori</h2>
+    <p>2017-2018</p>
+  </div>
+  <div className='education'>
+    <h1>Secondary School Certificate</h1>
+    <h2>Holy Cross English Medium High School, Butibori</h2>
+    <p>2017-2018</p>
+  </div>
+  <div className='education'>
+    <h1>Secondary School Certificate</h1>
+    <h2>Holy Cross English Medium High School, Butibori</h2>
+    <p>2017-2018</p>
+  </div>
+  </div> */}
+  
     [Secondary School Certificate] :- [Holy Cross English Medium High School, Butibori], [2017-2018] <br />
     [Higher Secondary Certificate] :- [Jijamata Junior College, Butibori], [2018-2020] <br />
     [Bachelor of Computer Application] :- [Rashtra Sant Tukdoji Maharaj Nagpur University], [2020-2023]

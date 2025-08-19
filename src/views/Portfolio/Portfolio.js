@@ -37,8 +37,8 @@ function Portfolio() {
                 <p>{description}</p>
               </div>
               <div className='btn-container'>
-              <button className='btn'>code</button>
-              <button className='btn'>Demo</button>
+              <button className='btn' onClick={() => window.open("https://github.com/Adityagaurkar09/quick-note", "_blank")}>code</button>
+              <button className='btn' onClick={() => window.open("https://quick-note-application.netlify.app", "_blank")}>Demo</button>
               </div>
             </div>
           ))
