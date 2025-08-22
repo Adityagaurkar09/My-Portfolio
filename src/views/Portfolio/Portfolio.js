@@ -1,10 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
-import html from './zomata.png'
+// import html from './zomata.png'
 import css from './game.png'
 import javascript from './note app.png'
-import react from './react.png'
-import github from './github.png'
+// import react from './react.png'
+// import github from './github.png'
 
 function Portfolio() {
   const cardItem = [
